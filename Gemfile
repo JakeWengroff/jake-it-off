@@ -49,4 +49,5 @@ group :test do
   gem "capybara", "~> 2.2.0"
   gem "database_cleaner", "~> 1.0.1"
   gem "launchy", "~> 2.3.0"
+  gem "simplecov"
 end
