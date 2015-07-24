@@ -1,0 +1,37 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/JakeWengroff/code/Blocitoff/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1437702939
+  }
+}
