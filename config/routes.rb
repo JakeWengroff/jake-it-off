@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
   
-  get 'welcome/index'
+devise_for :users
+  
+get 'welcome/index'
+get 'welcome/about'
+root to: 'users#show'
+  
+post :incoming, to: 'incoming#create'
 
-  get 'welcome/about'
-
-  devise_for :users
-  root to: 'welcome#index'
+resources :users, only: [:show] 
   
 end
