@@ -7,6 +7,7 @@ gem 'rails', '4.2.0'
 # gem 'sqlite3'
 
 gem 'devise'
+gem 'figaro', '1.0'
 
 group :production do
   gem 'pg'
