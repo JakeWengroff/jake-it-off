@@ -1,19 +1,19 @@
 class ItemsController < ApplicationController
-  def index
-    @items = Item.all
-    @item = Item.new
-  end
+  # def index
+  #   @items = Item.all
+  #   @item = Item.new
+  # end
 
-  def show
-    @item = Item.find(params[:id])
-  end
+  # def show
+  #   @item = Item.find(params[:id])
+  # end
 
-  def new
-    @item = Item.new
-  end
+  # def new
+  #   @item = Item.new
+  # end
 
   def create
-    @item = current_user.items.build(item_params)
+    @item = current_user.items.build(params.require(:item).permit(:name))
     if @item.save
       flash[:notice] = "Item was successfully saved."
       redirect_to current_user
@@ -23,11 +23,6 @@ class ItemsController < ApplicationController
     end
   end
 
-  private
-
-  def item_params
-    params.require(:item).permit(:name)
-  end
 
 end
 

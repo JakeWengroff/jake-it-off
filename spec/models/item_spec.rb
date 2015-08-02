@@ -1,5 +1,11 @@
-require 'rails_helper'
+require 'spec_helper'
 
 RSpec.describe Item, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should have valid factory" do
+    FactoryGirl.build(:user).should be_valid
+  end
+
+  it "should require a username" do
+    FactoryGirl.build(:user, :email => "").should_not be_valid
+  end
 end

@@ -7,9 +7,16 @@
         null,
         1,
         null,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/JakeWengroff/code/blocitoff/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/JakeWengroff/code/blocitoff/app/helpers/items_helper.rb": [
         1,
         null
       ],
@@ -21,12 +28,32 @@
         1,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/controllers/users_controller.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/items_controller.rb": [
         1,
         null,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -47,6 +74,18 @@
         null,
         null
       ],
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/JakeWengroff/code/blocitoff/app/controllers/welcome_controller.rb": [
         1,
         1,
@@ -55,8 +94,13 @@
         1,
         null,
         null
+      ],
+      "/Users/JakeWengroff/code/blocitoff/app/models/item.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1438380232
+    "timestamp": 1438491159
   }
 }
