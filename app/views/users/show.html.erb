@@ -1,2 +1,14 @@
-<h1>My To Do List</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<div class="container">
+  <div class="span8 text-left">
+    
+    <h1>My To Do List</h1>
+      <div class='new-comment'; style='margin-top: 15px;'>
+        <%= render partial: 'items/form', locals: { item: @item } %>
+      </div>
+
+    <table class="table table-hover">
+      <%= render @items %>
+    </table>
+
+  </div>
+</div>
