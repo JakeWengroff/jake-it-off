@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/models/user.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/models/user.rb": [
         1,
         null,
         null,
@@ -12,23 +12,23 @@
         null,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/helpers/application_helper.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/helpers/items_helper.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/helpers/items_helper.rb": [
         1,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/helpers/users_helper.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/helpers/welcome_helper.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/helpers/welcome_helper.rb": [
         1,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/controllers/items_controller.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/items_controller.rb": [
         1,
         null,
         1,
@@ -44,7 +44,7 @@
         null,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/controllers/application_controller.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -60,7 +60,7 @@
         null,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/controllers/users_controller.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -72,7 +72,7 @@
         null,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/controllers/welcome_controller.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/controllers/welcome_controller.rb": [
         1,
         1,
         null,
@@ -81,12 +81,12 @@
         null,
         null
       ],
-      "/Users/brittanymartin/projects/JakeWengroff/jake-it-off/app/models/item.rb": [
+      "/Users/JakeWengroff/code/blocitoff/app/models/item.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1438540304
+    "timestamp": 1438659623
   }
 }
