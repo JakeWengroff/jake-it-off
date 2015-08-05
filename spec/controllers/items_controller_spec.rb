@@ -30,14 +30,14 @@ RSpec.describe ItemsController, type: :controller do
 
   describe "DELETE #destroy" do
     it "deletes the item" do
-      expect{
-        delete :destroy, id: @item
-      }.to change(Item, :count).by(-1)
+      expect do
+        xhr :delete, :destroy, user_id: @user, id: @item
+      end.to change(Item, :count).by(-1)
     end
 
     it "redirects to the To Do List" do
-      delete :destroy, id: @item
-      response.should redirect_to(@user)
+      xhr :delete, :destroy, user_id: @user, id: @item
+      response.should be_success
     end
   end
 
