@@ -1,4 +1,5 @@
 <tr id="item-<%= item.id %>">
   <td><%= link_to "", user_item_path(current_user, item.id), method: :delete, remote: true, class: 'glyphicon glyphicon-ok' %><%= item.name %></td>
+  <td><%= item.days_left %></td>
 </tr>
 

@@ -8,4 +8,9 @@ RSpec.describe Item, type: :model do
   it "should require a username" do
     FactoryGirl.build(:user, :email => "").should_not be_valid
   end
+
+  it "displays time remaining" do
+    expect(FactoryGirl.build(:item)).to respond_to(:days_left)
+  end
+
 end
