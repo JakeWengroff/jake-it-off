@@ -5,6 +5,5 @@ Feature: Create items
 
   Scenario: Items List
     Given I am logged in as a user
-    Then I should have Items in my To Do List
-    And I fill in the form with a new Item
+    When I fill in the form with a new Item
     Then I see a new Item
