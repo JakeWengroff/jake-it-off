@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/JakeWengroff/code/blocitoff/app/models/user.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/models/user.rb": [
         1,
         null,
         null,
@@ -12,23 +12,23 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/helpers/application_helper.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/helpers/items_helper.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/items_helper.rb": [
         1,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/helpers/users_helper.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/helpers/welcome_helper.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/helpers/welcome_helper.rb": [
         1,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/controllers/items_controller.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/items_controller.rb": [
         1,
         null,
         1,
@@ -54,7 +54,7 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/controllers/application_controller.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -74,7 +74,7 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/controllers/users_controller.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -86,7 +86,7 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/controllers/welcome_controller.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/controllers/welcome_controller.rb": [
         1,
         1,
         null,
@@ -95,7 +95,7 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/app/models/item.rb": [
+      "/Users/JakeWengroff/code/Blocitoff/app/models/item.rb": [
         1,
         1,
         null,
@@ -105,7 +105,7 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/blocitoff/lib/tasks/todo.rake": [
+      "/Users/JakeWengroff/code/Blocitoff/lib/tasks/todo.rake": [
         1,
         1,
         1,
@@ -115,6 +115,6 @@
         null
       ]
     },
-    "timestamp": 1439439463
+    "timestamp": 1450388104
   }
 }
